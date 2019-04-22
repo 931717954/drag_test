@@ -40,6 +40,7 @@ class _DragAppState extends State<DragApp>{
             setState((){
               _left += detail.delta.dx;
               _top += detail.delta.dy;
+
             })
             },
           ),
